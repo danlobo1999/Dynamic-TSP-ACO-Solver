@@ -1,13 +1,7 @@
 from aco_dynamic_tsp.helper_functions import readFile
-from aco_dynamic_tsp.dynamic_tsp_v1 import dynamic_tsp_aco
+from aco_dynamic_tsp.dynamic_tsp import dynamic_tsp_aco
 
 def main():
-    # filename = "test.tsp"
-    filename = "berlin20.tsp"
-    city_info = readFile(filename)
-    traffic_factors = [0, 0.1, 0.25, 0.5]
-    threshold = 10
-    seed = 42
 
     # Define the parameters for the initial run
     initial_aco_params = {
@@ -29,7 +23,16 @@ def main():
         'initial_pheromone': 1.0
     }
 
-    dynamic_tsp_aco(city_info, traffic_factors, threshold, initial_aco_params, sub_tour_aco_params, seed)
+    traffic_factors = [0, 0.1, 0.25, 0.5]
+    threshold = 10
+    seed = 42
+
+    filenames = ["test.tsp","berlin20.tsp","berlin52.tsp","eil51.tsp","eil76.tsp","pr76.tsp","kroA100.tsp","kroC100.tsp","a280.tsp"]
+
+    for filename in filenames:
+        city_info = readFile(filename)
+        dynamic_tsp_aco(city_info, traffic_factors, threshold, initial_aco_params, sub_tour_aco_params, seed)
+        print(f"\n\n{'-'*100}\n\n")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 import math
+import time
 import numpy as np
 from aco_dynamic_tsp.tsp_aco import tsp_aco
 
@@ -21,11 +22,15 @@ def dynamic_tsp_aco(city_info, traffic_factors, threshold, initial_aco_params, s
     base_distances = np.array([[distance(city_info[c1], city_info[c2]) for c2 in cities] for c1 in cities])
     num_nodes = len(cities)
 
+    start_time = time.process_time()
     # Run the ACO algorithm and obtain the initial tour and its length
     initial_tour, initial_tour_length = tsp_aco(cities, base_distances, None, None, **initial_aco_params)
+    end_time = time.process_time()
+    elapsed_time = end_time - start_time
 
     print(f"\nInitial tour: {initial_tour}")
     print(f"\nInitial tour length: {initial_tour_length}")
+    print(f"\nElapsed time: {elapsed_time} seconds")
 
     tour_start = initial_tour[0]
     print(f"\n{'-'*40}\n")
@@ -39,6 +44,7 @@ def dynamic_tsp_aco(city_info, traffic_factors, threshold, initial_aco_params, s
     initial_tour_length_tracker = 0.0
     current_tour_length_tracker = 0.0
 
+    recalculation_count = 0
 
     for i in range(1, len(initial_tour)):
 
@@ -65,13 +71,18 @@ def dynamic_tsp_aco(city_info, traffic_factors, threshold, initial_aco_params, s
         percentage_change = ((fluctuated_remaining_tour_length - base_remaining_tour_length) / base_remaining_tour_length) * 100
 
         if percentage_change > threshold:
+            recalculation_count += 1
             print(f"Difference in remaining tour length has increased by more than {threshold}%. Recalculating new sub tour from current node.")
 
+            start_time = time.process_time()
             sub_tour, sub_tour_length = tsp_aco(tour_unvisited, fluctuated_distances, tour_start, tour_current_city, **sub_tour_aco_params)
+            end_time = time.process_time()
+            elapsed_time = end_time - start_time
 
             if sub_tour_length < fluctuated_remaining_tour_length:
                 current_tour = current_tour[:i-1] + sub_tour
                 print(f"Found a better sub tour. New current tour: {current_tour}")
+                print(f"Elapsed time: {elapsed_time} seconds")
             else:
                 print(f"Could not find a better sub tour. Continuing with previous tour.")
         else:
@@ -92,3 +103,4 @@ def dynamic_tsp_aco(city_info, traffic_factors, threshold, initial_aco_params, s
     print(f"Inital tour length (fluctuated distances): {initial_tour_length_tracker}")
     print(f"\nOptimized tour: {current_tour}")
     print(f"Optimized tour length (fluctuated distances): {current_tour_length_tracker}")
+    print(f"\nTotal sub-tour recalculations: {recalculation_count}")
