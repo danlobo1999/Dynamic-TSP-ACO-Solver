@@ -1,0 +1,433 @@
+Initial tour: [4, 18, 13, 41, 19, 40, 42, 44, 37, 17, 15, 45, 33, 39, 10, 30, 34, 50, 9, 16, 2, 22, 48, 6, 14, 25, 24, 23, 7, 43, 26, 8, 31, 28, 3, 36, 35, 20, 29, 21, 49, 5, 38, 11, 32, 1, 27, 51, 46, 12, 47, 4]
+
+Initial tour length: 465.3999999999999
+
+Elapsed time: 32.703125 seconds
+
+----------------------------------------
+
+Starting tour at city 4
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 18
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Found a better sub tour. New current tour: [4, 18, 47, 12, 5, 37, 17, 15, 44, 42, 41, 19, 40, 13, 25, 14, 24, 43, 23, 7, 26, 8, 31, 28, 3, 20, 35, 36, 29, 21, 50, 16, 2, 22, 1, 32, 27, 48, 6, 46, 51, 11, 38, 9, 49, 10, 30, 34, 39, 33, 45, 4]
+Elapsed time: 7.796875 seconds
+
+------------------------------------------------------------
+
+Visiting next city : city 47
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 12
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 5
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Found a better sub tour. New current tour: [4, 18, 47, 12, 5, 38, 11, 32, 1, 22, 48, 7, 26, 8, 31, 28, 3, 20, 35, 36, 29, 21, 9, 49, 10, 30, 34, 50, 16, 2, 46, 51, 27, 6, 23, 43, 24, 14, 25, 13, 41, 19, 40, 42, 44, 15, 45, 33, 39, 37, 17, 4]
+Elapsed time: 6.90625 seconds
+
+------------------------------------------------------------
+
+Visiting next city : city 38
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 11
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 32
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Found a better sub tour. New current tour: [4, 18, 47, 12, 5, 38, 11, 32, 1, 22, 2, 16, 21, 29, 35, 36, 20, 3, 28, 31, 8, 26, 7, 23, 24, 43, 6, 51, 46, 27, 48, 14, 25, 13, 41, 19, 40, 42, 44, 15, 45, 33, 39, 10, 30, 34, 50, 9, 49, 37, 17, 4]
+Elapsed time: 5.734375 seconds
+
+------------------------------------------------------------
+
+Visiting next city : city 1
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 22
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 2
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 16
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Found a better sub tour. New current tour: [4, 18, 47, 12, 5, 38, 11, 32, 1, 22, 2, 16, 50, 21, 29, 35, 36, 20, 3, 28, 31, 26, 8, 48, 27, 46, 51, 6, 23, 7, 43, 24, 14, 25, 13, 41, 19, 40, 42, 44, 15, 45, 33, 39, 10, 30, 34, 9, 49, 37, 17, 4]
+Elapsed time: 4.796875 seconds
+
+------------------------------------------------------------
+
+Visiting next city : city 50
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 21
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 29
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 35
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 36
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 20
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 3
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 28
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 31
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 26
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 8
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 48
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 27
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 46
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 51
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 6
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 23
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 7
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 43
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 24
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 14
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 25
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 13
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 41
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 19
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 40
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 42
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 44
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 15
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 45
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 33
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 39
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 10
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 30
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 34
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 9
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 49
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 37
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 17
+
+Applying traffic factors
+Next city is the final city.
+
+------------------------------------------------------------
+
+Visiting final city : city 4
+
+------------------------------------------------------------
+
+Initial tour: [4, 18, 13, 41, 19, 40, 42, 44, 37, 17, 15, 45, 33, 39, 10, 30, 34, 50, 9, 16, 2, 22, 48, 6, 14, 25, 24, 23, 7, 43, 26, 8, 31, 28, 3, 36, 35, 20, 29, 21, 49, 5, 38, 11, 32, 1, 27, 51, 46, 12, 47, 4]
+Inital tour length (base distances): 465.3999999999999
+Inital tour length (fluctuated distances): 544.3699999999998
+
+Optimized tour: [4, 18, 47, 12, 5, 38, 11, 32, 1, 22, 2, 16, 50, 21, 29, 35, 36, 20, 3, 28, 31, 26, 8, 48, 27, 46, 51, 6, 23, 7, 43, 24, 14, 25, 13, 41, 19, 40, 42, 44, 15, 45, 33, 39, 10, 30, 34, 9, 49, 37, 17, 4]
+Optimized tour length (fluctuated distances): 525.28
+
+Total sub-tour recalculations: 49
+
+
+----------------------------------------------------------------------------------------------------

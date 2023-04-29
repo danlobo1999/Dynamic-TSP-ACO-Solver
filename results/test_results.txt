@@ -1,0 +1,103 @@
+
+Initial tour: [1, 10, 7, 3, 8, 4, 5, 2, 9, 6, 1]
+
+Initial tour length: 26.269999999999996
+
+Elapsed time: 1.921875 seconds
+
+----------------------------------------
+
+Starting tour at city 1
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 10
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 7
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 3
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 8
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 4
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 5
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 2
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 9
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 6
+
+Applying traffic factors
+Next city is the final city.
+
+------------------------------------------------------------
+
+Visiting final city : city 1
+
+------------------------------------------------------------
+
+Initial tour: [1, 10, 7, 3, 8, 4, 5, 2, 9, 6, 1]
+Inital tour length (base distances): 26.269999999999996
+Inital tour length (fluctuated distances): 31.209999999999997
+
+Optimized tour: [1, 10, 7, 3, 8, 4, 5, 2, 9, 6, 1]
+Optimized tour length (fluctuated distances): 31.209999999999997
+
+Total sub-tour recalculations: 9
+
+
+----------------------------------------------------------------------------------------------------

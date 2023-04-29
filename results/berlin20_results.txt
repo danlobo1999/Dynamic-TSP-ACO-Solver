@@ -1,0 +1,168 @@
+
+Initial tour: [5, 15, 6, 4, 12, 11, 13, 14, 16, 20, 1, 18, 2, 7, 17, 3, 19, 8, 9, 10, 5]
+
+Initial tour length: 5307.29
+
+Elapsed time: 6.984375 seconds
+
+----------------------------------------
+
+Starting tour at city 5
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Found a better sub tour. New current tour: [5, 15, 6, 4, 12, 13, 14, 11, 10, 9, 8, 19, 3, 18, 17, 2, 7, 20, 16, 1, 5]
+Elapsed time: 1.8125 seconds
+
+------------------------------------------------------------
+
+Visiting next city : city 15
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 6
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 4
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Could not find a better sub tour. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 12
+
+Applying traffic factors
+Difference in remaining tour length has increased by more than 10%. Recalculating new sub tour from current node.
+Found a better sub tour. New current tour: [5, 15, 6, 4, 12, 11, 13, 14, 1, 16, 20, 2, 7, 17, 3, 18, 19, 8, 9, 10, 5]
+Elapsed time: 1.21875 seconds
+
+------------------------------------------------------------
+
+Visiting next city : city 11
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 13
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 14
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 1
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 16
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 20
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 2
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 7
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 17
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 3
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 18
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 19
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 8
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 9
+
+Applying traffic factors
+Difference in remaining tour length has increased by less than 10%. Continuing with previous tour.
+
+------------------------------------------------------------
+
+Visiting next city : city 10
+
+Applying traffic factors
+Next city is the final city.
+
+------------------------------------------------------------
+
+Visiting final city : city 5
+
+------------------------------------------------------------
+
+Initial tour: [5, 15, 6, 4, 12, 11, 13, 14, 16, 20, 1, 18, 2, 7, 17, 3, 19, 8, 9, 10, 5]
+Inital tour length (base distances): 5307.29
+Inital tour length (fluctuated distances): 6550.650000000001
+
+Optimized tour: [5, 15, 6, 4, 12, 11, 13, 14, 1, 16, 20, 2, 7, 17, 3, 18, 19, 8, 9, 10, 5]
+Optimized tour length (fluctuated distances): 5909.9400000000005
+
+Total sub-tour recalculations: 5
